@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-image-demo",
+  "version": "1.0.0",
+  "description": "nodejs image demo",
+  "author": "Gustavo Leitão <gustavo.leitao@imd.ufrn.br>",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "redis": "^2.8.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
